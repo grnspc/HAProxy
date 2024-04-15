@@ -2,10 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'en-US',
-  outDir: 'public',
+  srcDir: './src',
+  outDir: './public',
   cleanUrls: true,
   lastUpdated: true,
+  lang: 'en-US',
   title: "OPNSense",
   description: "Tutorial 2024/02: HAProxy + Let's Encrypt Wildcard Certificates + 100% A+ Rating",
   themeConfig: {
@@ -17,7 +18,7 @@ export default defineConfig({
     // },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2021-present GRNSPC & TheHellSite'
+      copyright: 'Copyright © 2021-present TheHellSite'
     },
     search: {
       provider: 'local'

@@ -3,7 +3,7 @@
 Let's prepare OPNsense to generate certificates using the ACME Client (formerly `Let's Encrypt`)
 
 **Table of content:**
-- [3.1 - Settings](/guides/haproxy/part-3/001-acme-settings.md)
+- [3.1 - Settings](/guides/haproxy/part-3/001-acme-settings)
 - [3.2 - Schedule](/guides/haproxy/part-3/002-acme-schedule)
 - [3.3 - Accounts](/guides/haproxy/part-3/003-acme-accounts)
 - [3.4 - Automations](/guides/haproxy/part-3/004-acme-automations)

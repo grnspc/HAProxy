@@ -42,7 +42,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## 2021-08-01
 
-- Added an explanation about using self-signed certificates for internal communication to the [FAQ](/faq).
+- Added an explanation about using self-signed certificates for internal communication to the [FAQ](/faq.md).
 
 ## 2021-07-30
 
