@@ -8,22 +8,28 @@ chapter: "4.4"
 {{ $frontmatter.section }}
 # Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
 
-Create the automation to restart HAProxy after our certificates have been renewed.
+We are going to allow any inbound traffic hitting our WAN interface on the ports specified in the `HAProxy_ports` alias.
 
 ## Process
 
 In your OPNsense GUI, Preform the following;
 
-- Navigate to **`Services --> ACME Client --> Automations`**  
-  -> Create a new automation and use the following settings.
+- Navigate to **`Firewall --> Rules --> WAN`**  
+  -> Create a new firewall rule and assign the following settings.
 
-```text{5}
-Enabled:        checked
-Name:           Restart HAProxy
-Description:    Restart HAProxy plugin after certificate creation
-Run Command:    Restart HAproxy (OPNsense plugin)  
+```text
+Action:             Pass
+Interface:          WAN
+Protocol:           TCP
+
+Destination:        WAN address
+Destination Port
+    From:           HAProxy_ports
+    To:             HAProxy_ports
+    
+Description:        Allow HAProxy
 ```
 
 
 ## Reference
-![P003-004-ACME-Automations](assets/P003-004-ACME-Automations.png)
+![P003-004-ACME-Automations](assets/P004-004-Firewall-Rules-WAN-HAProxy.png)

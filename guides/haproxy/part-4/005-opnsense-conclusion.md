@@ -8,6 +8,8 @@ chapter: "4.5"
 {{ $frontmatter.section }}
 # Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
 
-If this went well, we can now proceed to the prepare everything for HAProxy. 
+If you did it right it should look like this, make sure that the rule is above all other rules in the list.
 
-To do this we have to configure some things in your OPNsense.
+![P003-004-ACME-Automations](assets/P004-005-Firewall-Rules-WAN.png)
+
+Now we can finally configure HAProxy and make our services available on WAN.

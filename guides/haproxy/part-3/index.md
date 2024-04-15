@@ -11,7 +11,7 @@ Lets prepare OPNsense to generate certificates using the ACME Client (formerly `
 - [3.6 - Add Certificate](/guides/haproxy/part-3/006-acme-certificates)
 - [3.7 - Test Certificate](/guides/haproxy/part-3/007-acme-certificates)
 - [3.8 - ACME Log](/guides/haproxy/part-3/008-acme-log)
-- [3.9 - Update Account](/guides/haproxy/part-3/009-acme-certificates)
+- [3.9 - Update Account](/guides/haproxy/part-3/009-acme-accounts)
 - [3.10 - Production Certificate](/guides/haproxy/part-3/010-acme-certificates)
 - [3.11 - Conclusion](/guides/haproxy/part-3/011-acme-conclusion)
 

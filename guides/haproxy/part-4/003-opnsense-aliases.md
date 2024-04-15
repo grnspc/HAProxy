@@ -8,26 +8,22 @@ chapter: "4.3"
 {{ $frontmatter.section }}
 # Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
 
-Create a new account. You can name it whatever you like, I usually use the domain name (if it is a real domain) or in this case the FQDN.
-
-> [!WARNING] Before We Begin
-> We will want to use the staging environment `Let's Encrypt Test CA` for now.
-> <https://letsencrypt.org/docs/staging-environment/>
+Now we are going to create an alias for the ports that HAProxy will be listening on.
+In most setups you will probably need at least 80 and 443.
 
 ## Process
 
 In your OPNsense GUI, Preform the following;
 
-- Navigate to **`Services --> ACME Client --> Accounts`**  
-    -> Create a new account and use the following settings.
+- Navigate to **`Firewall --> Aliases`**  
+    -> Create a new alias and assign the following settings.
 
-```text{5}
-Enabled:         checked
-Name:            <your_subdomain>.dedyn.io
-
-E-Mail Address:  <your_email>
-ACME CA:         Let's Encrypt Test CA  <-- IMPORTANT // [!code warning]
+```text
+Enabled:    checked
+Name:       HAProxy_ports
+Type:       Port(s)
+Content:    80 443
 ```
 
 ## Reference
-![P003-003-ACME-Accounts](assets/P003-003-ACME-Accounts.png)
+![P003-003-ACME-Accounts](assets/P004-003-Firewall-Aliases-HAProxy.png)

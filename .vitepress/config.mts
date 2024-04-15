@@ -2,18 +2,26 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: 'en-US',
   outDir: 'public',
-  // lastUpdated: true,
-
+  cleanUrls: true,
+  lastUpdated: true,
   title: "HAProxy + Let's Encrypt Wildcard Certificates",
   description: "Tutorial 2024/02: HAProxy + Let's Encrypt Wildcard Certificates + 100% A+ Rating",
   themeConfig: {
-    editLinks: true,
-    footer: true,
     // https://vitepress.dev/reference/default-theme-config
+    // editLink: {
+    //   pattern: 'https://github.com/grnspc/HAProxy/blob/master/:path',
+    //   // https://github.com/grnspc/HAProxy/blob/master/guides/haproxy/part-2/008-dyn-dns-conclusion.md
+    //   text: 'Edit this page on GitHub'
+    // },
+    footer: true,
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide' },
+      { text: 'Guide', link: '/guides/haproxy/' },
       { text: 'Changelog', link: '/changelog' },
       { text: 'FAQ', link: '/faq' }
     ],
@@ -29,11 +37,10 @@ export default defineConfig({
       {
         text: 'Guide',
         items: [
-          { text: 'Current Ciphers', link: '/guides/haproxy/current-ciphers' },
-          { text: 'Changelog', link: '/changelog' },
           { text: 'Introduction', link: '/guides/haproxy/' },
           { text: 'The Configuration',
             items: [
+              { text: 'Current Ciphers', link: '/guides/haproxy/current-ciphers' },
               { text: 'Part 1 - Plugin Installation', link: '/guides/haproxy/part-1/'},
               { text: 'Part 2 - DynDNS Configuration',
                 link: '/guides/haproxy/part-2/',
