@@ -1,11 +1,11 @@
 ---
 title: Part 2.3 - Create Token - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: Create Token
-chapter: "2.3"
+sectionTitle: DynDNS Configuration
+stepTitle: Create Token
+step: "2.3"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.3 - Create Token
 
 ## Process

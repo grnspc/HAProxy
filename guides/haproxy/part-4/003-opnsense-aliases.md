@@ -1,11 +1,11 @@
 ---
 title: Part 4.3 - Aliases - System Preparation
-section: System Preparation
-chapterTitle: Aliases
-chapter: "4.3"
+sectionTitle: System Preparation
+stepTitle: Aliases
+step: "4.3"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 4.3 - Aliases
 
 Now we are going to create an alias for the ports that HAProxy will be listening on.

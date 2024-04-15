@@ -1,11 +1,11 @@
 ---
 title: Part 3.4 - Automations - ACME Client
-section: ACME Client
-chapterTitle: Automations
-chapter: "3.4"
+sectionTitle: ACME Client
+stepTitle: Automations
+step: "3.4"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.4 - Automations
 
 Create the automation to restart HAProxy after our certificates have been renewed.

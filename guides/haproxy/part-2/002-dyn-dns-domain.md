@@ -1,11 +1,11 @@
 ---
 title: Part 2.2 - Create Domain - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: Create Domain
-chapter: "2.2"
+sectionTitle: DynDNS Configuration
+stepTitle: Create Domain
+step: "2.2"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.2 - Create Domain
 
 ## Process

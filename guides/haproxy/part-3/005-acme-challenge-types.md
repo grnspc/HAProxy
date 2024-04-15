@@ -1,11 +1,11 @@
 ---
 title: Part 3.5 - Challenge Types - ACME Client
-section: ACME Client
-chapterTitle: Challenge Types
-chapter: "3.5"
+sectionTitle: ACME Client
+stepTitle: Challenge Types
+step: "3.5"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.5 - Challenge Types
 
 Create the Challenge Types for ACME Client to verify your domain.

@@ -1,11 +1,11 @@
 ---
 title: Part 3.3 - Create Account - ACME Client
-section: ACME Client
-chapterTitle: Create Account
-chapter: "3.3"
+sectionTitle: ACME Client
+stepTitle: Create Account
+step: "3.3"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.3 - Create Account
 
 Create a new account. You can name it whatever you like, I usually use the domain name (if it is a real domain) or in this case the FQDN.

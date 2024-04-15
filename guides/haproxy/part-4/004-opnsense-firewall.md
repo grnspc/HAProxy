@@ -1,11 +1,11 @@
 ---
 title: Part 4.4 - Firewall (WAN) - System Preparation
-section: System Preparation
-chapterTitle: Firewall (WAN)
-chapter: "4.4"
+sectionTitle: System Preparation
+stepTitle: Firewall (WAN)
+step: "4.4"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 4.4 - Firewall (WAN)
 
 We are going to allow any inbound traffic hitting our WAN interface on the ports specified in the `HAProxy_ports` alias.

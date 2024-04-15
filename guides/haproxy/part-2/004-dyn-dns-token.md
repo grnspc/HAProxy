@@ -1,11 +1,11 @@
 ---
 title: Part 2.4 - Save Token - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: Save Token
-chapter: "2.4"
+sectionTitle: DynDNS Configuration
+stepTitle: Save Token
+step: "2.4"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.4 - Save Token
 
 Save the token somewhere secure as we will need it twice during this tutorial and you also might need it again in the future.

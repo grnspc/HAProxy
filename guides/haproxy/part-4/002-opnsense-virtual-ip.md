@@ -1,11 +1,11 @@
 ---
 title: Part 4.2 - Virtual IP - System Preparation
-section: System Preparation
-chapterTitle: Virtual IP
-chapter: "4.2"
+sectionTitle: System Preparation
+stepTitle: Virtual IP
+step: "4.2"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 4.2 - Virtual IP
 
 > [!NOTE] OPTIONAL

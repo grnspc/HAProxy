@@ -1,11 +1,11 @@
 ---
 title: Part 4.5 - Conclusion - System Preparation
-section: System Preparation
-chapterTitle: Conclusion
-chapter: "4.5"
+sectionTitle: System Preparation
+stepTitle: Conclusion
+step: "4.5"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 4.5 - Conclusion
 
 If you did it right it should look like this, make sure that the rule is above all other rules in the list.

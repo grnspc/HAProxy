@@ -17,16 +17,16 @@ export default defineConfig({
     // },
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You'
+      copyright: 'Copyright © 2021-present GRNSPC & TheHellSite'
     },
     search: {
       provider: 'local'
     },
     nav: [
-      { text: 'Home', link: '/' },
       { text: 'Guide', link: '/guides/haproxy/' },
       { text: 'Changelog', link: '/changelog' },
-      { text: 'FAQ', link: '/faq' }
+      { text: 'FAQ', link: '/faq' },
+      { text: 'Forum', link: 'https://forum.opnsense.org/index.php?topic=23339.0' }
     ],
 
     sidebar: [
@@ -40,13 +40,15 @@ export default defineConfig({
       {
         text: 'Guide',
         items: [
+          { text: 'Current Ciphers', link: '/guides/haproxy/current-ciphers' },
           { text: 'Introduction', link: '/guides/haproxy/' },
           { text: 'The Configuration',
             items: [
-              { text: 'Current Ciphers', link: '/guides/haproxy/current-ciphers' },
+
               { text: 'Part 1 - Plugin Installation', link: '/guides/haproxy/part-1/'},
               { text: 'Part 2 - DynDNS Configuration',
                 link: '/guides/haproxy/part-2/',
+                collapsed: true,
                 items: [
                   { text: '2.1 - Create Account', link: '/guides/haproxy/part-2/001-dyn-dns-account' },
                   { text: '2.2 - Create Domain', link: '/guides/haproxy/part-2/002-dyn-dns-domain' },
@@ -60,6 +62,7 @@ export default defineConfig({
               },
               { text: 'Part 3 - ACME Client',
                 link: '/guides/haproxy/part-3/',
+                collapsed: true,
                 items: [
                   { text: '3.1 - Settings', link: '/guides/haproxy/part-3/001-acme-settings' },
                   { text: '3.2 - Schedule', link: '/guides/haproxy/part-3/002-acme-schedule' },
@@ -76,6 +79,7 @@ export default defineConfig({
               },
               { text: 'Part 4 - System Preparation',
                 link: '/guides/haproxy/part-4/',
+                collapsed: true,
                 items: [
                   { text: '4.1 - Administration', link: '/guides/haproxy/part-4/001-opnsense-administration' },
                   { text: '4.2 - Virtual IP', link: '/guides/haproxy/part-4/002-opnsense-virtual-ip' },
@@ -84,8 +88,43 @@ export default defineConfig({
                   { text: '4.5 - Conclusion', link: '/guides/haproxy/part-4/005-opnsense-conclusion' },
 
                 ]
-              }
-
+              },
+              { text: 'Part 5 - HAProxy Configuration',
+                link: '/guides/haproxy/part-5/',
+                collapsed: true,
+                items: [
+                  { text: '5.1 - Service', link: '/guides/haproxy/part-5/001-haproxy-service' },
+                  { text: '5.2 - Global Parameters', link: '/guides/haproxy/part-5/002-haproxy-global-parameters' },
+                  { text: '5.3 - Default Parameters', link: '/guides/haproxy/part-5/003-haproxy-default-parameters' },
+                  { text: '5.4 - Real Servers', link: '/guides/haproxy/part-5/004-haproxy-real-servers' },
+                  { text: '5.5 - Backend Pools', link: '/guides/haproxy/part-5/005-haproxy-backend-pools' },
+                  { text: '5.6 - Conditions', link: '/guides/haproxy/part-5/006-haproxy-conditions' },
+                  { text: '5.7 - Map Files', link: '/guides/haproxy/part-5/007-haproxy-map-files' },
+                  { text: '5.8 - Rules', link: '/guides/haproxy/part-5/008-haproxy-rules' },
+                  { text: '5.9 - Public Services', link: '/guides/haproxy/part-5/009-haproxy-public-services' },
+                  { text: '5.10 - Conclusion', link: '/guides/haproxy/part-5/010-haproxy-conclusion' },
+                ]
+              },
+              { text: 'Part 6 - Access from Internal Networks',
+                link: '/guides/haproxy/part-6/',
+                collapsed: true,
+                items: [
+                  { text: 'A - Split DNS', link: '/guides/haproxy/part-6/a-split-dns' },
+                  { text: 'B - NAT Reflection', link: '/guides/haproxy/part-6/b-nat-reflection' }
+                ]
+              },
+              { text: 'Part 7 - Advanced Configuration: local-access-only subdomains',
+                link: '/guides/haproxy/part-7/',
+                collapsed: true,
+                items: [
+                  { text: '7.1 - Map Files', link: '/guides/haproxy/part-7/001-haproxy-mapfiles' },
+                  { text: '7.2 - Conditions', link: '/guides/haproxy/part-7/002-haproxy-conditions' },
+                  { text: '7.3 - Rules', link: '/guides/haproxy/part-7/003-haproxy-rules' },
+                  { text: '7.4 - Public Services', link: '/guides/haproxy/part-7/004-haproxy-public-services' },
+                  { text: '7.5 - Conclusion', link: '/guides/haproxy/part-7/005-haproxy-conclusion' },
+                ]
+              },
+              { text: 'Part 8 - Advanced Configuration: Hide Your Certificate on Access by IP', link: '/guides/haproxy/part-8/'}
             ]
           }
         ],
@@ -94,7 +133,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      // { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
 })

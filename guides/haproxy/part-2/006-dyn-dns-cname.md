@@ -1,11 +1,11 @@
 ---
 title: Part 2.6 - CNAME Record - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: CNAME Record
-chapter: "2.6"
+sectionTitle: DynDNS Configuration
+stepTitle: CNAME Record
+step: "2.6"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.6 - CNAME Record
 
 The next step is to add a CNAME record for your services.

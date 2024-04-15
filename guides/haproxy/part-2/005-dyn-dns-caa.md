@@ -1,11 +1,11 @@
 ---
 title: Part 2.5 - CAA Record - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: CAA Record
-chapter: "2.5"
+sectionTitle: DynDNS Configuration
+stepTitle: CAA Record
+step: "2.5"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.5 - CAA Record
 
 Add a CAA record containing the information on which certification authority (CA) is allowed to issue SSL certificates for your domain.

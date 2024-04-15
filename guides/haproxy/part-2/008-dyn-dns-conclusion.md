@@ -1,11 +1,11 @@
 ---
 title: Part 2.8 - Conclusion - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: Conclusion
-chapter: "2.8"
+sectionTitle: DynDNS Configuration
+stepTitle: Conclusion
+step: "2.8"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.8 - Conclusion
 
 If everything went right `<your_subdomain>.dedyn.io` and `<any_string>.<your_subdomain>.dedyn.io` should resolve to your public IP.

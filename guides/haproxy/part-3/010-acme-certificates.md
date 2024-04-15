@@ -1,11 +1,11 @@
 ---
 title: Part 3.10 - Production Certificate - ACME Client
-section: ACME Client
-chapterTitle: Production Certificate
-chapter: "3.10"
+sectionTitle: ACME Client
+stepTitle: Production Certificate
+step: "3.10"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.10 - Production Certificate
 
 Now again forcefully issue your certificate like we did before ([Part 3.7](007-acme-certificates.md)).

@@ -1,11 +1,11 @@
 ---
 title: Part 3.6 - Add Certificate - ACME Client
-section: ACME Client
-chapterTitle: Add Certificate
-chapter: "3.6"
+sectionTitle: ACME Client
+stepTitle: Add Certificate
+step: "3.6"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.6 - Add Certificate
 
 Create the certificate for your domain.

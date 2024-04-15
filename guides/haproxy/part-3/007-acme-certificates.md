@@ -1,11 +1,11 @@
 ---
 title: Part 3.7 - Test Certificate - ACME Client
-section: ACME Client
-chapterTitle: Test Certificate
-chapter: "3.7"
+sectionTitle: ACME Client
+stepTitle: Test Certificate
+step: "3.7"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.7 - Test Certificate
 
 We need to forcefully issue our staging certificate so we can test things out and don't have to wait for the next update schedule.

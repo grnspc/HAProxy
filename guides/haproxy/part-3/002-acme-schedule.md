@@ -1,11 +1,11 @@
 ---
 title: Part 3.2 - Schedule - ACME Client
-section: ACME Client
-chapterTitle: Schedule
-chapter: "3.2"
+sectionTitle: ACME Client
+stepTitle: Schedule
+step: "3.2"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.2 - Schedule
 
 Here we will configure at which time of the day our certificates are renewed.

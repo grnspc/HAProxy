@@ -1,11 +1,11 @@
 ---
 title: Part 3.8 - ACME Log - ACME Client
-section: ACME Client
-chapterTitle: ACME Log
-chapter: "3.8"
+sectionTitle: ACME Client
+stepTitle: ACME Log
+step: "3.8"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.8 - ACME Log
 
 Let's check if your certificate has been issued successfully.

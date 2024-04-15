@@ -1,11 +1,11 @@
 ---
 title: Part 3.9 - Update Account - ACME Client
-section: ACME Client
-chapterTitle: Update Account
-chapter: "3.9"
+sectionTitle: ACME Client
+stepTitle: Update Account
+step: "3.9"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.9 - Update Account
 
 Since we successfully issued our staging certificate we can now leave the test environment and issue our production certificate.

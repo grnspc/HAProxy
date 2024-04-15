@@ -1,11 +1,11 @@
 ---
 title: Part 4.1 - Administration - System Preparation
-section:  System Preparation
-chapterTitle: Administration
-chapter: "4.1"
+sectionTitle:  System Preparation
+stepTitle: Administration
+step: "4.1"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 4.1 - Administration
 
 You only need to check "Disable web GUI redirect rule" and change the "Web GUI TCP port" to a custom one.

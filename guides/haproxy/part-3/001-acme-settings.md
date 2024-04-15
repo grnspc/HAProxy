@@ -1,11 +1,11 @@
 ---
 title: Part 3.1 - Settings - ACME Client
-section: ACME Client
-chapterTitle: Settings
-chapter: "3.1"
+sectionTitle: ACME Client
+stepTitle: Settings
+step: "3.1"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.1 - Settings
 
 ## Process

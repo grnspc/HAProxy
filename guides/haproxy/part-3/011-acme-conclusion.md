@@ -1,11 +1,11 @@
 ---
 title: Part 3.11 - Conclusion - ACME Client
-section: ACME Client
-chapterTitle: Conclusion
-chapter: "3.11"
+sectionTitle: ACME Client
+stepTitle: Conclusion
+step: "3.11"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 3.11 - Conclusion
 
 If this went well, we can now proceed to the prepare everything for HAProxy. 

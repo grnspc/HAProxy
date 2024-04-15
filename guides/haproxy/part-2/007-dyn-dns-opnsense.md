@@ -1,11 +1,11 @@
 ---
 title: Part 2.7 - OPNsense DynDNS Client - DynDNS Configuration
-section: DynDNS Configuration
-chapterTitle: OPNsense DynDNS Client
-chapter: "2.7"
+sectionTitle: DynDNS Configuration
+stepTitle: OPNsense DynDNS Client
+step: "2.7"
 ---
 
-{{ $frontmatter.section }}
+{{ $frontmatter.sectionTitle }}
 # Part 2.7 - OPNsense DynDNS Client
 
 The next step is to enable DynDNS in OPNsense.
