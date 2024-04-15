@@ -14,7 +14,7 @@ If you think that there is anything wrong or missing, feel free to tell me about
     <a href="https://ko-fi.com/thehellsite" target="_blank">
         <img alt="But Me A Coffee" src="https://storage.ko-fi.com/cdn/kofi1.png" width="286">
     </a>
-    <a href="https://ko-fi.com/thehellsite" target="_blank">
+    <a href="https://www.buymeacoffee.com/thehellsite" target="_blank">
         <img alt="But Me A Beer" src="https://i.postimg.cc/htR5wWr0/buymeabeer.png" width="286" style="border-radius: 9999px">
     </a>
 </div>
