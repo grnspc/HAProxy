@@ -6,7 +6,7 @@ chapter: "3.4"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.4 - Automations
 
 Create the automation to restart HAProxy after our certificates have been renewed.
 

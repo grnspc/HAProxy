@@ -6,7 +6,7 @@ chapter: "3.11"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.11 - Conclusion
 
 If this went well, we can now proceed to the prepare everything for HAProxy. 
 

@@ -6,7 +6,7 @@ chapter: "4.4"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 4.4 - Firewall (WAN)
 
 We are going to allow any inbound traffic hitting our WAN interface on the ports specified in the `HAProxy_ports` alias.
 

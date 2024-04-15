@@ -6,7 +6,8 @@ chapter: "3.2"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.2 - Schedule
+
 Here we will configure at which time of the day our certificates are renewed.
 
 They won't be renewed everyday as the ACME client will first check if the certificates are close to expiration and if they are not they won't get renewed.

@@ -6,7 +6,7 @@ chapter: "3.1"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.1 - Settings
 
 ## Process
 

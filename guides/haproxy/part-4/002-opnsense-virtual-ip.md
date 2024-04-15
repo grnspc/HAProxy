@@ -6,7 +6,7 @@ chapter: "4.2"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 4.2 - Virtual IP
 
 > [!NOTE] OPTIONAL
 > This step is optional, see [FAQ](/faq). You can safely skip this step and use the localhost instead for your `SSL_server`.

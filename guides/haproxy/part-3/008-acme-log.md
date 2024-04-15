@@ -6,7 +6,7 @@ chapter: "3.8"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.8 - ACME Log
 
 Let's check if your certificate has been issued successfully.
 

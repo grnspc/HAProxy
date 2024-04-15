@@ -6,7 +6,7 @@ chapter: "3.3"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.3 - Create Account
 
 Create a new account. You can name it whatever you like, I usually use the domain name (if it is a real domain) or in this case the FQDN.
 

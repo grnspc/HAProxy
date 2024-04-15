@@ -6,7 +6,7 @@ chapter: "4.1"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 4.1 - Administration
 
 You only need to check "Disable web GUI redirect rule" and change the "Web GUI TCP port" to a custom one.
 

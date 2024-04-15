@@ -6,7 +6,7 @@ chapter: "2.2"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.2 - Create Domain
 
 ## Process
 

@@ -6,7 +6,7 @@ export default defineConfig({
   outDir: 'public',
   cleanUrls: true,
   lastUpdated: true,
-  title: "HAProxy + Let's Encrypt Wildcard Certificates",
+  title: "OPNSense",
   description: "Tutorial 2024/02: HAProxy + Let's Encrypt Wildcard Certificates + 100% A+ Rating",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -15,7 +15,10 @@ export default defineConfig({
     //   // https://github.com/grnspc/HAProxy/blob/master/guides/haproxy/part-2/008-dyn-dns-conclusion.md
     //   text: 'Edit this page on GitHub'
     // },
-    footer: true,
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2019-present Evan You'
+    },
     search: {
       provider: 'local'
     },

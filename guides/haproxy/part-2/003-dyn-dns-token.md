@@ -6,7 +6,7 @@ chapter: "2.3"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.3 - Create Token
 
 ## Process
 

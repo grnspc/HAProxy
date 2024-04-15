@@ -6,7 +6,7 @@ chapter: "2.5"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.5 - CAA Record
 
 Add a CAA record containing the information on which certification authority (CA) is allowed to issue SSL certificates for your domain.
 

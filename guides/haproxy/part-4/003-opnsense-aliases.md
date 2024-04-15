@@ -6,7 +6,7 @@ chapter: "4.3"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 4.3 - Aliases
 
 Now we are going to create an alias for the ports that HAProxy will be listening on.
 In most setups you will probably need at least 80 and 443.

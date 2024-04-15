@@ -6,7 +6,7 @@ chapter: "3.9"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.9 - Update Account
 
 Since we successfully issued our staging certificate we can now leave the test environment and issue our production certificate.
 

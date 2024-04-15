@@ -6,7 +6,7 @@ chapter: "2.8"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.8 - Conclusion
 
 If everything went right `<your_subdomain>.dedyn.io` and `<any_string>.<your_subdomain>.dedyn.io` should resolve to your public IP.
 

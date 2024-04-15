@@ -6,7 +6,7 @@ chapter: "2.4"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.4 - Save Token
 
 Save the token somewhere secure as we will need it twice during this tutorial and you also might need it again in the future.
 

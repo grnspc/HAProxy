@@ -6,7 +6,7 @@ chapter: "3.7"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.7 - Test Certificate
 
 We need to forcefully issue our staging certificate so we can test things out and don't have to wait for the next update schedule.
 

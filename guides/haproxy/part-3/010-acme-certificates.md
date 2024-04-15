@@ -6,7 +6,7 @@ chapter: "3.10"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.10 - Production Certificate
 
 Now again forcefully issue your certificate like we did before ([Part 3.7](007-acme-certificates.md)).
 

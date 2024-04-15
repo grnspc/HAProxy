@@ -6,7 +6,7 @@ chapter: "3.5"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.5 - Challenge Types
 
 Create the Challenge Types for ACME Client to verify your domain.
 

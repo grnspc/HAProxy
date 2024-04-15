@@ -6,7 +6,7 @@ chapter: "4.5"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 4.5 - Conclusion
 
 If you did it right it should look like this, make sure that the rule is above all other rules in the list.
 

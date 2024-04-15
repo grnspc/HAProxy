@@ -6,7 +6,7 @@ chapter: "3.6"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 3.6 - Add Certificate
 
 Create the certificate for your domain.
 

@@ -6,7 +6,7 @@ chapter: "2.6"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.6 - CNAME Record
 
 The next step is to add a CNAME record for your services.
 

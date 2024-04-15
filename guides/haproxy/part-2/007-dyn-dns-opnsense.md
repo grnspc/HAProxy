@@ -6,7 +6,7 @@ chapter: "2.7"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.7 - OPNsense DynDNS Client
 
 The next step is to enable DynDNS in OPNsense.
 

@@ -1,12 +1,12 @@
 ---
-title: Part 2.1 - Create Domain - DynDNS Configuration
+title: Part 2.1 - Create Account - DynDNS Configuration
 section: DynDNS Configuration
 chapterTitle: Create Account
 chapter: "2.2"
 ---
 
 {{ $frontmatter.section }}
-# Part {{ $frontmatter.chapter }} - {{ $frontmatter.chapterTitle }}
+# Part 2.1 - Create Account
 
 ## Process
 
